@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Shop</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbar-left-menu">
+            <div class="topbar-logo">
+                <img src="medical shop.png" alt="Logo">
+                <p class="topbar-text">Pharmacy</p>
+            </div>
+            <nav>
+                <a class="topbar-menu-items" href="./orders.html">Orders</a>
+                <a class="topbar-menu-items" href="./products.html">Products</a>
+                <a class="topbar-menu-items" href="./users.html">Users</a>
+            </nav>
+        </div>
+        <a style="display: none;" class="topbar-menu-items" id="logout-button" href="">Logout</a>
+    </div>
+    <div id="loginform-wrapper">
+        <form class="LoginPage" id="loginform">
+            <h1>Sign In</h1>
+            <input class="LoginPage_InputField" type="text" name="username" placeholder="Enter Username">
+            <input class="LoginPage_InputField" type="password" name="password" placeholder="Enter Password">
+            <input class="LoginPage_Button" type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
